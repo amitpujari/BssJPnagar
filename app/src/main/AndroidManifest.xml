@@ -20,7 +20,10 @@
         <activity android:name=".SubjectsActivity" />
         <activity android:name=".StudentsActivity" />
         <activity android:name=".StudentsProfileActivity" />
-        <activity android:name=".TeachersActivity"></activity>
+        <activity android:name=".TeachersActivity" />
+        <activity android:name=".TeacherProfileActivity" />
+        <activity android:name=".ExtraCurricularActivity" />
+        <activity android:name=".GalleryActivity"></activity>
     </application>
 
 </manifest>

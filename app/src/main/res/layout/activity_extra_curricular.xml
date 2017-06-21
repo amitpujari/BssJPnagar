@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="squareandcube.bssjpnagar.ExtraCurricularActivity">
+
+    <TextView
+        android:id="@+id/Sports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sports"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dance"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Music"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Arts "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="24sp"
+        tools:text="ArtsAndCraft" />
+</LinearLayout>
