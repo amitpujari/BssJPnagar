@@ -1,9 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="squareandcube.bssjpnagar.TeachersActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/principal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Subhas Rao   Principal"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/HeadMaster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Arjun reddy HeadMaster"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/english"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Kalikesh samal   English"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/hindi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. Bikash sharma   Hindi"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/math"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5. sukaniya   math"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/science"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6. Vikram singh   science"
+        android:textSize="24sp" />
+</LinearLayout>
